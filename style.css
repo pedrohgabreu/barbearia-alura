@@ -1,0 +1,67 @@
+/* No alinhamento deles (text-align)
+No tamanho da fonte (font-size)
+Na cor de fundo (background)
+Na cor do texto (color)
+altura do elemento, através da propriedade height
+argura do elemento, através da propriedade width
+espaçamento interno do elemento, através da propriedade padding
+espaçamento externo do elemento, através da propriedade margin
+*/
+
+body{
+		
+}
+
+#banner {
+	width: 100%;
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 20px;
+}
+
+.tituloprincipal{
+	padding-left:20px; 
+}
+
+.textocentralizado{
+	text-align: center;
+}
+
+p {
+	text-align: center;	
+}
+
+#missao {
+	font-size: 20px;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+
+	font-style: italic;
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembenecifios{
+	width: 50%;
+}
