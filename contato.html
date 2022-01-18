@@ -4,6 +4,8 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
 		<title>Contato - Barbearia Alura</title>
 
 		<link rel="stylesheet" href="reset.css">
@@ -25,8 +27,8 @@
 			</div>
 		</header>
 
-		<main>
-			<form>
+		<main class="contatofundo">
+			<form class="tiposcontatos">
 				<label for="nomeesobrenome">Nome e Sobrenome</label>
 				<input type="text" id="nomeesobrenome" class="input-padrao" required>
 
@@ -59,7 +61,7 @@
 
 					<fieldset>
 					    <legend>Qual horário prefere ser atendido?</legend>
-					    <select>
+					    <select class="select">
 					        <option>Manhã</option>
 					        <option>Tarde</option>
 					        <option>Noite</option>
@@ -74,7 +76,7 @@
 				<input type="submit" value="Enviar formulário" class="enviar">
 			</form>
 
-			<table>
+			<table class="horarios">
 				<thead>
 					<tr>
 						<th>Dia</th>
@@ -96,10 +98,6 @@
 						<td>8h ~ 20h</td>
 					</tr>
 				</tbody>
-			<tr>
-    			<td colspan="5">Rio de Janeiro</td> 
-			</tr>
-
 			</table>
 
 		</main>
